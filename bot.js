@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf')
 const { hearsGreeting, startCommand, helpCommand, processPayment, onSuccessfulPayment, purchaseAction, catalogCommand, registerActionForEachAlbum } = require('./commands')
 
-const token = process.env.BOT_TOKEN
+const token = "1579664028:AAEUowQM3yvLRJT_qVUU4mbMMKgab6Hs6mI"
 
 if (!token) {
     throw new Error('[ERROR] No bot token provided')
